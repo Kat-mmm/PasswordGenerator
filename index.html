@@ -12,14 +12,33 @@
         <h1 id='generate-el'>Generate a</h1>
         <h1 id='random-el'>random password<h1>
         <p>Never use an insecure password again.</p>
-        <button onclick="generatePassword()">Generate passwords.</button>
+        
+        <div id="options-el">
+            <label for="number" id="numbers-label">
+            <input type="checkbox" id="digits-el" value="number">
+            without numbers</label><br>
+
+            
+            <label for="symbols" id="symbols-label">
+            <input type="checkbox" id="symbols-el" value="symbols">
+            symbols</label><br>
+            <label for="length">
+            <input type="number" id="length-el" min="8" max="20" value="length">
+            Password length</label>
+        </div>
+
+        <button id="btn">Generate passwords</button>
+
         <hr>
-        <div id="rectangle1">
-            <p id="pass-el"></p>
+        <div id="rectangles">
+            <div id="rectangle1">
+                <p id="pass-el"></p>
+            </div>
+            <div id="rectangle2">
+                <p id="pass2-el"></p>
+            </div>
         </div>
-        <div id="rectangle2">
-            <p id="pass2-el"></p>
-        </div>
+        
         
         
         <script src="index.js"></script>
