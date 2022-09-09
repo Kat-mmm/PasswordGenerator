@@ -1,43 +1,50 @@
 body {
     margin: 0;
     background-color: #1F2937;
-    
+    font-family: Tahoma;
 }
 
 #generate-el{
     color: white;
     margin-bottom: 0px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 50px;
+    font-size: 40px;
 }
 
 #random-el{
     color: #4ADF86;
     margin-top: 0px;
-    margin-left: 30px
+    margin-left: 60px;
+    font-size: 40px;
 }
 
 p{
     position: absolute;
     top: 125px;
-    left: 30px;
+    left: 60px;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 28px;
     color: #D5D4D8;
-    margin-top: 0px;
+    margin-top:25px;
 }
 
 button{
-    width: 180px;
-    height: 42px;
+    width: 190px;
+    height: 50px;
     font-size: 13px;
     color: white;
     background: #10B981;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 40px;
     border-radius: 6px;
+}
+
+button:hover{
+    border: 2px solid rgb(181, 177, 177);
+    scale: 1.1;
 }
 
 hr{
@@ -62,21 +69,24 @@ hr{
 }
 #rectangle2{
     position: absolute;
-    top: 259px;
+    top: 290px;
     left: 250px;
 }
 
 #rectangle2 p{
     position: relative;
-    top: 4px;
-    left: 25px;
+    top: -20px;
+    left: 50px;
     color: #55F991;
+    font-size: 14px;
 }
 
 #rectangle1 p{
     position: relative;
-    top: 4px;
+    top:4px;
+    left: 40px;
     color: #55F991;
+    font-size: 14px;
 }
 
 
