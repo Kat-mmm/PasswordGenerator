@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #1F2937;
     font-family: Tahoma;
+    width: 100%;
 }
 
 #generate-el{
