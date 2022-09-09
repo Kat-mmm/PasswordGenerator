@@ -8,39 +8,39 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <div id="container">
+            <h1 id='generate-el'>Generate a</h1>
+            <h1 id='random-el'>random password<h1>
+            <p>Never use an insecure password again.</p>
         
-        <h1 id='generate-el'>Generate a</h1>
-        <h1 id='random-el'>random password<h1>
-        <p>Never use an insecure password again.</p>
-        
-        <div id="options-el">
-            <label for="number" id="numbers-label">
-            <input type="checkbox" id="digits-el" value="number">
-            without numbers</label><br>
+            <div id="options-el">
+                <label for="number" id="numbers-label">
+                <input type="checkbox" id="digits-el" value="number">
+                without numbers</label><br>
 
-            
-            <label for="symbols" id="symbols-label">
-            <input type="checkbox" id="symbols-el" value="symbols">
-            symbols</label><br>
-            <label for="length">
-            <input type="number" id="length-el" min="8" max="20" value="length">
-            Password length</label>
-        </div>
-
-        <button id="btn">Generate passwords</button>
-
-        <hr>
-        <div id="rectangles">
-            <div id="rectangle1">
-                <p id="pass-el"></p>
+                
+                <label for="symbols" id="symbols-label">
+                <input type="checkbox" id="symbols-el" value="symbols">
+                without symbols</label><br>
+                <label for="length">
+                <input type="number" id="length-el" min="8" max="20" value="length">
+                Password length</label>
             </div>
-            <div id="rectangle2">
-                <p id="pass2-el"></p>
+
+            <button id="btn">Generate passwords</button>
+
+            <hr>
+            <div id="rectangles">
+                <div id="rectangle1">
+                    <p id="pass-el"></p>
+                </div>
+                <div id="rectangle2">
+                    <p id="pass2-el"></p>
+                </div>
             </div>
         </div>
         
-        
-        
+
         <script src="index.js"></script>
     </body>
 </html>
